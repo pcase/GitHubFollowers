@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="30dp"/>
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:indeterminate="true"
+        android:visibility="gone">
+    </ProgressBar>
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="GitHub Username"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/go_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Go" />
+</LinearLayout>
